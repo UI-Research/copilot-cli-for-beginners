@@ -10,6 +10,7 @@ This chapter is where the magic starts! You'll experience firsthand why develope
 
 By the end of this chapter, you'll be able to:
 
+- Know some basic rules of the road for securely using GitHub Copilot CLI at Urban.
 - Experience the productivity boost GitHub Copilot CLI provides through hands-on demos
 - Choose the right mode (Interactive, Plan, or Programmatic) for any task
 - Use slash commands to control your sessions
@@ -28,7 +29,9 @@ Jump right in and see what Copilot CLI can do.
 
 ## Getting Comfortable: Your First Prompts
 
-Before diving into the impressive demos, let's start with some simple prompts you can try right now. **No code repository needed**! Just open a terminal and start Copilot CLI:
+> ⚠️ **Important note on security**: When you run the CLI tool, Copilot will have access to files _at and below_ the directory level you are in. **NEVER run the CLI from your top-level directory** (i.e. `C:\`, `D:\` or `Home`). And you should also **NEVER run the CLI from a directory that contains sensitive or confidential information** as you might then expose those files to risk.
+
+Before diving into the impressive demos, let's start with some simple prompts you can try right now. **No code repository needed**! Just open a terminal from an appropriate folder not at the root level, and start Copilot CLI:
 
 ```bash
 copilot
