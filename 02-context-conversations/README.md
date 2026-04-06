@@ -50,7 +50,7 @@ The `@` symbol references files and directories in your prompts. It's how you te
 
 ### Try It Now (No Setup Required)
 
-You can try this with any file on your computer:
+You can try this with any file on your computer from an appropriate folder not at the root level, that does not contain confidential data:
 
 ```bash
 copilot
