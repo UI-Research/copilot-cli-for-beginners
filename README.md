@@ -7,6 +7,9 @@
 
 🎯 [What You'll Learn](#what-youll-learn) &ensp; ✅ [Prerequisites](#prerequisites) &ensp; 🤖 [Copilot Family](#understanding-the-github-copilot-family) &ensp; 📚 [Course Structure](#course-structure) &ensp; 📋 [Command Reference](#-github-copilot-cli-command-reference)
 
+# About this branch
+The `urban-version-for-traning` branch is modified from `main` for Urban-recommended set up steps as of April 2026.
+
 # GitHub Copilot CLI for Beginners
 
 > **✨ Learn to supercharge your development workflow with AI-powered command-line assistance.**
