@@ -66,7 +66,7 @@ The course includes sample files with intentional code quality issues. If you're
 
 ```bash
 # Clone the course repository if you're working locally and haven't already
-git clone https://github.com/github/copilot-cli-for-beginners
+git clone https://github.com/UI-Research/copilot-cli-for-beginners
 cd copilot-cli-for-beginners
 
 # Start Copilot

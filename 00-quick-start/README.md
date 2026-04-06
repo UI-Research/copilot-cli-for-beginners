@@ -40,7 +40,7 @@ Follow these steps to run Copilot CLI on your local machine with the course samp
 1. Clone the repo to get the course samples on your machine:
 
     ```bash
-    git clone https://github.com/github/copilot-cli-for-beginners
+    git clone https://github.com/UI-Research/copilot-cli-for-beginners
     cd copilot-cli-for-beginners
     ```
 
