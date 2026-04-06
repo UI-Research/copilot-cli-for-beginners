@@ -21,14 +21,11 @@ By the end of this chapter, you'll have:
 
 ### What "Copilot Access" Means
 
-GitHub Copilot CLI requires an active Copilot subscription. You can check your status at [github.com/settings/copilot](https://github.com/settings/copilot). You should see one of:
+GitHub Copilot CLI requires an active Copilot subscription. You can check your status at [github.com/settings/copilot](https://github.com/settings/copilot). You should see:
 
-- **Copilot Individual** - Personal subscription
-- **Copilot Business** - Through your organization
-- **Copilot Enterprise** - Through your enterprise
-- **GitHub Education** - Free for verified students/teachers
+- **Copilot Business** - Through your membership via the UI-Research organization
 
-If you see "You don't have access to GitHub Copilot," you'll need to use the free option, subscribe to a plan, or join an organization that provides access.
+If you see "You don't have access to GitHub Copilot," you'll need to use the free option, or request to join the group with access to Copilot via UI-Research. Email jkelly@urban.org for more information about use at Urban. 
 
 ---
 
@@ -36,20 +33,9 @@ If you see "You don't have access to GitHub Copilot," you'll need to use the fre
 
 > ⏱️ **Time estimate**: Installation takes 2-5 minutes. Authentication adds another 1-2 minutes.
 
-### GitHub Codespaces (Zero Setup)
-
-If you don't want to install any of the prerequisites you can use GitHub Codespaces, which has the GitHub Copilot CLI ready to go (you'll need to sign in), and pre-installs Python and pytest.
-
-1. [Fork this repository](https://github.com/github/copilot-cli-for-beginners/fork) to your GitHub account
-2. Select **Code** > **Codespaces** > **Create codespace on main**
-3. Wait a few minutes for the container to build
-4. You're ready to go! The terminal will open automatically in the Codespace environment.
-
-> 💡 **Verify in Codespace**: Run `cd samples/book-app-project && python book_app.py help` to confirm Python and the sample app are working.
-
 ### Local Installation
 
-Follow these steps if you'd like to run Copilot CLI on your local machine with the course samples.
+Follow these steps to run Copilot CLI on your local machine with the course samples.
 
 1. Clone the repo to get the course samples on your machine:
 
@@ -60,14 +46,7 @@ Follow these steps if you'd like to run Copilot CLI on your local machine with t
 
 2. Install Copilot CLI using one of the following options.
 
-    > 💡 **Not sure which to pick?** Use `npm` if you have Node.js installed. Otherwise, choose the option that matches your system.
-
-    ### All Platforms (npm)
-
-    ```bash
-    # If you have Node.js installed, this is a quick way to get the CLI
-    npm install -g @github/copilot
-    ```
+    > If you have Windows, you will need to contact helpdesk to schedule installation.
 
     ### macOS/Linux (Homebrew)
 
@@ -80,14 +59,6 @@ Follow these steps if you'd like to run Copilot CLI on your local machine with t
     ```bash
     winget install GitHub.Copilot
     ```
-
-    ### macOS/Linux (Install Script)
-
-    ```bash
-    curl -fsSL https://gh.io/copilot-install | bash
-    ```
-
----
 
 ## Authentication
 
