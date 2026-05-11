@@ -55,10 +55,10 @@ Follow these steps to run Copilot CLI on your local machine with the course samp
     ```
 
     ### Windows (WinGet)
-
-    ```bash
-    winget install GitHub.Copilot
-    ```
+    
+    - contact helpdesk to schedule install. 
+    - frequently requires a Powershell update first.
+  
 
 ## Authentication
 
@@ -67,6 +67,8 @@ Open a terminal window at the root of the `copilot-cli-for-beginners` repository
 ```bash
 copilot
 ```
+
+> Windows users may need to run `gh copilot` at the command line. 
 
 You'll be asked to trust the folder containing the repository (if you haven't already). You can trust it one time or across all future sessions.
 
